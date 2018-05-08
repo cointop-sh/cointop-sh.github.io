@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background: #0f0f0f;
+  color: #ffffff9e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.Main {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Header {
+  text-align: center;
+  padding: 2em 0 2em 0;
+}
+
+@media (max-width: 768px) {
+  .Header {
+    padding: 2em 0 1em 0;
+  }
+}
+
+.Header a {
+  display: inline-block;
+}
+
+.Header img {
+  width: 35%;
+  height: auto;
+  max-width: 600px;
+}
+
+@media (max-width: 500px) {
+  .Header img {
+    width: 50%;
+  }
+}
+
+.Display {
+  text-align: center;
+  padding: 0 2em 0 2em;
+}
+
+@media (max-width: 768px) {
+  .Display {
+    padding: 1em 0 1em 0;
+  }
+}
+
+.Display a {
+  display: inline-block;
+}
+
+.Display img {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+}
+
+.Actions {
+  text-align: center;
+  padding: 0 1em 1em 1em;
+}
+
+.Button {
+  display: inline-block;
+  padding: 1em 2em;
+  color: #76afa7;
+  background: #212020;
+  border: gray;
+  text-decoration: none;
+  border: 1px solid #3e3e3e;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  font-weight: 500;
+}
+
+.Button:hover {
+  color: #82bdb5;
+  background: #2d2c2c;
+}
+
+.Footer {
+  text-align: center;
+  padding: 2em;
+  opacity: 0.5;
+  font-size: 0.7em;
+}
+
+.Footer a {
+  color: #ffffff9e;
+  text-decoration: none;
+}
+
+.Footer a:active,
+.Footer a:focus,
+.Footer a:hover {
+  color: #ffffff9e;
+  text-decoration: underline;
+}
