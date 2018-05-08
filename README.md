@@ -4,6 +4,8 @@
 
 **[https://cointop.sh](https://cointop.sh/)**
 
+<img src="https://user-images.githubusercontent.com/168240/39737568-b1db2b44-523a-11e8-8a34-772af245f3de.png" alt="cointop site screenshot" width="1080">
+
 ## License
 
 MIT
