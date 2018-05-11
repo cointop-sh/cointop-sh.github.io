@@ -2,7 +2,7 @@
 Title=Cointop Application
 Comment=Latest development version of cointop application
 Description=Cointop is fast interactive terminal-based application for tracking cryptocurrencies
-Url=https://github.com/miguelmota/cointop
+Url=https://cointop.sh/flathub
 DefaultBranch=master
 NoDeps=true
 Homepage=https://cointop.sh
