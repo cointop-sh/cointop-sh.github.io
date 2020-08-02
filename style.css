@@ -97,7 +97,7 @@ body {
 
 .Demo label {
   display: block;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
   opacity: 0.5;
   font-style: italic;
 }
@@ -146,6 +146,16 @@ details {
 
 details summary {
   cursor: pointer;
+}
+
+details summary,
+details summary:hover,
+details summary:focus {
+  outline: 0;
+}
+
+details div {
+  margin-bottom: 1em;
 }
 
 .Button {
