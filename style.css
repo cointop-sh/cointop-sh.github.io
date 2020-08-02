@@ -85,6 +85,67 @@ body {
 .Actions {
   text-align: center;
   padding: 0 1em 1em 1em;
+  margin-bottom: 2em;
+}
+
+.Demo {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto 2em auto;
+  padding: 1em;
+}
+
+.Demo label {
+  display: block;
+  margin-bottom: 0.2em;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.Demo code {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  white-space: pre;
+  border: 1px solid #131313;
+  border-radius: 4px;
+  background: #212020;
+}
+
+.Install {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto 1em auto;
+  padding: 1em;
+}
+
+.Install label {
+  display: block;
+  margin-bottom: 0.2em;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.Install code {
+  display: block;
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 400px;
+  white-space: pre;
+  border: 1px solid #131313;
+  border-radius: 4px;
+  background: #212020;
+  font-size: 0.8em;
+  overflow: auto;
+}
+
+details {
+  width: 100%;
+  margin-bottom: 0.2em;
+}
+
+details summary {
+  cursor: pointer;
 }
 
 .Button {
