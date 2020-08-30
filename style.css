@@ -174,6 +174,11 @@ details div {
 .Button:hover {
   color: #82bdb5;
   background: #2d2c2c;
+  cursor: pointer;
+}
+
+.Button:focus {
+  outline: 0;
 }
 
 .Footer {
@@ -193,4 +198,51 @@ details div {
 .Footer a:hover {
   color: #ffffff9e;
   text-decoration: underline;
+}
+
+.Subscribe {
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+#mc_embed_signup {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#mc_embed_signup .Join {
+  margin-bottom: 0.5em;
+}
+
+#mc_embed_signup label {
+  display: block;
+  margin-bottom: 0.2em;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+#mc_embed_signup .mc-field-group {
+  margin-bottom: 1em;
+}
+
+#mc_embed_signup input[type="email"],
+#mc_embed_signup input[type="text"] {
+  width: 100%;
+  display: block;
+  background: #212020;
+  border: 1px solid #212020;
+  color: white;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+#mc_embed_signup .clear {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 640px) {
+  #mc_embed_signup .clear {
+    justify-content: flex-end;
+  }
 }
